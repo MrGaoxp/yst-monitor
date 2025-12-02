@@ -1,0 +1,5 @@
+name: yst-monitor
+services:
+  - name: bot
+    run: python3 main.py
+    instance_type: free
